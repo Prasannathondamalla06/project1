@@ -1,0 +1,94 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: hotpink;
+}
+.header img{
+    width:95%;
+    height: 600px;
+    box-shadow: 5px 5px greenyellow;
+   border-radius: 5px;
+}
+.headimg{
+    position: relative;
+     display:flex; 
+    justify-content: center; 
+    
+}
+.heading{
+    position:absolute;
+    top:30px;
+    left:70px;
+    color:chartreuse;
+}
+.banner{
+     display: flex;
+    justify-content: space-around;
+    width:auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+
+}
+.para{
+    width:70%;
+    font-size:medium;
+    text-align: justify;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding-right: 10px;
+    box-shadow: 5px 5px greenyellow;
+}
+.banner img{
+    width:30%;
+    height:300px;
+    box-shadow: 5px 5px gold;
+    margin-top: 10px;
+    border-radius: 15px;
+   
+}
+.bannerheading{
+    
+    margin-left: 20px;
+     margin-bottom: 0px; 
+    margin-top: 8px;
+    background-size:contain;
+    
+}
+
+.bannerheading h1{
+    display: block;
+   
+}
+.container{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    justify-content: space-around;
+}
+.container img{
+    width:50%;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 5px 5px whitesmoke;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 20px;
+   
+    margin-top: 0px;
+}
+.container p{
+    width:50%;
+    height:300px;
+    text-align:justify;
+    /* margin-left: 10px; */
+    margin-right: 10px;
+    border-radius: 10px;
+    padding:20px;
+    font-size: large;
+    box-shadow: 5px 5px papayawhip;
+    
+}
